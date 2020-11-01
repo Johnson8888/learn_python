@@ -6,7 +6,7 @@ Support: http://fulade.me
 '''
 
 
-# 作业链接：http://fulade.me/python-variable-1-5.html
+# 作业链接：http://fulade.me/python-variable-1-4.html
 
 # 1-1 简单消息：将一条消息存储到变量中，再将其打印出来。
 
