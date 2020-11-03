@@ -1,7 +1,7 @@
 '''
 Author: 弗拉德
 Date: 2020-11-02 22:03:17
-LastEditTime: 2020-11-02 22:07:21
+LastEditTime: 2020-11-03 08:38:03
 Support: http://fulade.me
 '''
 
@@ -23,7 +23,25 @@ print(name.title())
 
 print('Albert Einstein once said, “A person who never made a mistake never tried anything new.”')
 
-#2-4 名言 2:重复练习 2-5，但将名人的姓名存储在变量 famous_person 中，再创建 要显示的消息，并将其存储在变量 message 中，然后打印这条消息。
+#2-4 名言 2:重复练习 2-3，但将名人的姓名存储在变量 famous_person 中，再创建 要显示的消息，并将其存储在变量 message 中，然后打印这条消息。
+
+famous_person = "Albert Einstein"
+message = "'" + famous_person + " once said, “A person who never made a mistake never tried anything new.”'"
+print(message)
 
 #2-5 剔除人名中的空白:存储一个人名，并在其开头和末尾都包含一些空白字符。 务必至少使用字符组合"\t"和"\n"各一次。
 #打印这个人名，以显示其开头和末尾的空白。然后，分别使用剔除函数 lstrip()、 rstrip()和 strip()对人名进行处理，并将结果打印出来。
+
+other_name = "\tFulade Li\n"
+
+print("Default:")
+print(other_name)
+
+print("\nUsing lstrip():")
+print(other_name.lstrip())
+
+print("\nUsing rstrip():")
+print(other_name.rstrip())
+
+print("\nUsing strip():")
+print(other_name.strip())
