@@ -1,7 +1,7 @@
 '''
 Author: 弗拉德
 Date: 2020-12-07 20:51:28
-LastEditTime: 2020-12-07 20:54:35
+LastEditTime: 2020-12-08 16:35:10
 Support: http://fulade.me
 '''
 
@@ -10,7 +10,6 @@ Support: http://fulade.me
 
 if __name__ == "__main__":
     
-
     # 9-1 有一个菜摊，提供五种蔬菜。请想出五种简单的蔬菜，并将其存储在一个元组中。
     vegetables = ('ginger','cabbage','celery','spinach','potato')
     # 9-2 使用一个 for 循环将该菜摊提供的五种蔬菜都打印出来。
