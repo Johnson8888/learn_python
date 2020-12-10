@@ -1,7 +1,7 @@
 '''
 Author: 弗拉德
 Date: 2020-12-08 16:34:37
-LastEditTime: 2020-12-08 16:42:59
+LastEditTime: 2020-12-10 11:49:34
 Support: http://fulade.me
 '''
 
@@ -11,6 +11,7 @@ Support: http://fulade.me
 
 if __name__ == "__main__":
     
+        
     # 10-1 检查两个数字相等、不等、大于、小于、大于等于和小于等于。
     n1 = 10
     n2 = 20
